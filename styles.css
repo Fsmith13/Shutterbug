@@ -1,0 +1,78 @@
+/* Stylesheet for Shutterbug Bootstrap project by Frank on 11/15/18 */
+
+.container {
+	max-width: 928px;
+}
+
+.main {
+	background-image: url(../images/intro.jpg);
+	background-size: cover;
+	height: 550px;
+	padding-top: 25px;
+}
+.main h1 {
+	font-family: Kodchasan, sans-serif;
+	font-size: 72px;
+	text-shadow: 3px 3px 2px crimson;
+	transition: text-shadow 2s;
+}
+
+.main h1:hover {
+	text-shadow: 5px 5px 4px violet;
+}
+
+.main h2 {
+	font-family: Patrick Hand, cursive;
+	margin-bottom: 70px;
+}
+
+.main a {
+	font-size: 22px;
+}
+
+.btn {
+	background-color: crimson;
+	color: white;
+	border-radius: 30px;
+	padding: 8px 35px;
+	transition: background-color 2s;
+}
+
+.btn:hover {
+	background-color: violet
+}
+
+.section .row {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.row h1 {
+	font-family: Khand, sans-serif;
+}
+
+.row p {
+	font-family: Kodchasan, sans-serif;
+	font-size: 36px;
+}
+
+#store {
+	padding: 30px 0px;
+	border-bottom: 1px solid black;
+}
+
+.footer {
+	background-color: lightgray;
+}
+
+.footer h1 {
+	font-size: 24px;
+	font-weight: bolder;
+	text-align: center;
+}
+
+.footer ul {
+	list-style-type: none;
+	padding-left: 0px;
+	text-align: center;
+}
